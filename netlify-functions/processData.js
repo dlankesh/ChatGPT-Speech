@@ -15,7 +15,7 @@ exports.handler = async (event, context) => {
       };
     }
 
-    const vertexAI = new VertexAI({ project: 'named-foundry-362604', location: 'us-central1', apiKey: apiKey });
+    const vertexAI = new VertexAI({ project: 'chatgpt-speech-4106b', location: 'us-central1', apiKey: apiKey });
 
     const model = vertexAI.getGenerativeModel({
       model: 'gemini-1.5-pro',
