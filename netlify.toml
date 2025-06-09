@@ -1,0 +1,6 @@
+[build]
+  functions = "netlify-functions"
+  publish = "frontend/build"
+
+[dev]
+  framework = "#create-react-app"
