@@ -4,3 +4,7 @@
 
 [dev]
   framework = "#create-react-app"
+
+[functions]
+  node_bundler = "esbuild"
+  environment = { NODE_VERSION = "18" }
